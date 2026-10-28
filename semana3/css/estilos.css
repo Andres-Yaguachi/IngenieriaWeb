@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Fondo con un ligerísimo tono azulado-grisáceo para armonizar con el nuevo tema */
+body {
+    background-color: #f0f4f8;
+}
+
+/*-----------------ESTILOS CABECERA Y CONTENEDORES GENERALES-----------*/
+header.mainHeader, section.news, section.mainSlider, footer.mainFooter {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 15px;
+}
+
+header.mainHeader h2 {
+    padding: 10px 30px;
+    width: 30%;
+    display: inline-block;
+    color: #1e3a8a; /* Azul marino para el título principal */
+    vertical-align: middle;
+}
+
+header.mainHeader nav {
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+header.mainHeader nav a {
+    text-decoration: none;
+    color: #475569; /* Gris azulado oscuro para el texto de los enlaces */
+    padding: 10px 15px;
+    text-align: right;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+header.mainHeader nav a:hover {
+    background-color: #2f855a; /* Verde levemente oscuro para el hover */
+    color: #ffffff;
+}
+
+/*-----------------ESTILOS SLIDER-----------*/
+section.mainSlider {
+    /* Un elegante degradado que fusiona el azul oscuro con el verde oscuro */
+    background: linear-gradient(135deg, #1e3a8a, #2f855a);
+    color: #ffffff;
+    border: none;
+}
+
+section.mainSlider h2 {
+    padding: 130px 0;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3); /* Sombra de texto ligeramente más pronunciada por el fondo oscuro */
+}
+
+/*-------------------ESTILOS NOTICIAS--------*/
+section.news {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 10px 0;
+}
+
+section.news .newsItem {
+    width: 27%;
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    vertical-align: top;
+    border-top: 4px solid #2f855a; /* Detalle de diseño: una sutil línea verde superior en las tarjetas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section.news .newsItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(30, 58, 138, 0.15); /* La sombra del hover ahora tiene un ligero tono azulado */
+}
+
+/*-------------------ESTILOS FOOTER--------*/
+footer.mainFooter {
+    background-color: #0f172a; /* Un azul noche muy oscuro, casi negro */
+    color: #94a3b8; /* Gris con matiz azul para un buen contraste */
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 0;
+}
+
+/* -------------Estilos del login de la app ------------- */
+body.bodylogin{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	/*background: seagreen;*/
+
+	background: url("../images/am.jpg") no-repeat;
+	background-size: cover;
+	background.position: center;
+}
+
+.wrapper{
+	width: 420px;
+	/*background-color: purple;*/
+	color: #fff;s
+
+	border-radius: 10px;
+	padding: 30px 40 px;
+
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .2);
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+.wrapper h1{
+	font-size: 36px;
+	text-align: center;
+}
+.wrapper .input-box{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	backdrop-filter: blur(20px);
+	margin: 30px 0;
+	padding: 10px;
+}
+.input-box input{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	backdrop-filter: blur(20px);
+	border: none;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	font-size: 16px;
+	color: #ff;
+	padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+	color: #fff;
+}
+.input-box i{
+	position: absolute;
+	right: 20px;
+	top: 30%;
+	transform: translate(-10px);
+	font-size: 20px;
+
+}
+.wrapper .remember-forgot{
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+	margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+	accent-color: #fff;
+	margin-right: 10px;
+	padding: 10px;
+}
+.remember-forgot a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+.remember-forgot a:hover{
+	text-decoration: underline;
+}
+.wrapper .btn{
+	width: 100%;
+	height: 45px;
+	background: #fff;
+	color: #333;
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+}
+.wrapper .register-link{
+	font-size: 14px;
+	text-align: center;
+	/*margin-top: 20px;*/
+
+	margin: 20px 0 15px;
+
+}
+
+.register-link p a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+.register-link p a:hover{
+	text-decoration: underline;
+}
+

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+/*-----------------ESTILOS CABECERA-----------*/
+header.mainHeader, section.news, section.mainSlider, footer{
+    width: 80%;
+    background-color: #ccc;
+    padding: 10px;
+    margin: 0 auto;
+}
+header.mainHeader h2{
+    padding: 10px 30px;
+    width:30%;
+    display: inline-block;
+}
+header.mainHeader nav{
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+}
+header.mainHeader nav a{
+    text-decoration: none;
+    color: red;
+    padding: 0 10px;
+    text-align: right;
+}
+header.mainHeader nav a:hover{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius; 15px;
+}
+/*-----------------ESTILOS SLIDER-----------*/
+section.mainSlider{
+    background-color: #ff3333;
+}
+section.mainSlider h2{
+    padding: 130px 0;
+    text-align: center;
+}
+/*-------------------Estilos Noticioas--------*/
+section.news .newsItem{
+    width: 27%;
+    display: inline-block;
+    text-align: center;
+    background-color: #cc3333;
+    margin: 5px;
+    padding: 20px;
+}
+/*-------------------Estilos FOOTER--------*/
+footer.mainFooter{
+    background-color: #000;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+}

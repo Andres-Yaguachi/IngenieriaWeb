@@ -1,0 +1,15 @@
+body{
+    background: blue;
+}
+header{
+    background: black;
+    color: #AAA8439;
+}
+.cabeceraPrincipal{
+    font-size: 30px;
+    color: #fff;
+    font-family: arial;
+}
+#principal{
+    background: red;
+}
