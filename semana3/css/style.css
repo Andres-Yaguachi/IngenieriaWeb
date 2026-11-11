@@ -15,7 +15,7 @@ header.mainHeader h2{
     width:30%;
     display: inline-block;
 }
-header.mainHeader nav{
+header.mainHeader nav.mainInfo{
     width: 60%;
     display: inline-block;
     text-align: right;

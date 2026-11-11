@@ -217,3 +217,28 @@ body.bodylogin{
 	text-decoration: underline;
 }
 
+/*-------------Transicion-------------*/
+
+wrapper .btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*-------------Madiea Queri-------------*/
+/* Tablet */
+@media (max-width: 800px) {
+  body.bodylogin{
+    background: url("../images/db.jpg") no-repeat;
+  }
+}
+
+/* Celular */
+@media (max-width: 450px) {
+  body.bodylogin {
+    background-image: none;
+    background-color: black;
+  }
+}
+
